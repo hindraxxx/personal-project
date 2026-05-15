@@ -131,4 +131,13 @@ public class Tree {
     return false;
   }
 
+  public void invertBST(Node node){
+    Node tempNode = node.left;
+    node.left = node.right;
+    node.right = tempNode;
+
+    invertBST(node.left);
+    invertBST(node.right);
+  }
+
 }
