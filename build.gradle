@@ -1,0 +1,33 @@
+plugins {
+  id 'java'
+}
+
+group = 'personal.project'
+version = '1.0-SNAPSHOT'
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(21)
+  }
+}
+
+sourceSets {
+  main {
+    java {
+      srcDirs = ['model', 'main_runner']
+    }
+  }
+  test {
+    java {
+      srcDirs = ['test']
+    }
+  }
+}
+
+dependencies {
+  testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+  useJUnit()
+}
