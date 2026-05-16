@@ -1,4 +1,4 @@
-# Elevator System
+# ElevatorModel System
 
 ## Prompt
 
@@ -10,7 +10,7 @@ Design a simplified elevator system for a building.
 - Accept pickup requests from floors.
 - Accept destination requests from inside elevators.
 - Move elevators one step at a time.
-- Track elevator direction, current floor, and assigned stops.
+- Track elevator elevatorDirection, current floor, and assigned stops.
 - Open doors when reaching a requested floor.
 
 ## Suggested API
@@ -34,16 +34,16 @@ List<ElevatorSnapshot> elevators = system.snapshot();
 ## Validation Cases
 
 - Idle elevator accepts pickup.
-- Elevator moves toward assigned floor.
-- Elevator opens at requested floor.
-- Multiple stops are served in direction order.
+- ElevatorModel moves toward assigned floor.
+- ElevatorModel opens at requested floor.
+- Multiple stops are served in elevatorDirection order.
 - Requests outside building fail.
-- Elevator at capacity rejects pickup.
+- ElevatorModel at capacity rejects pickup.
 
 ## Design Signals
 
 - Scope this tightly in 30 minutes.
 - Separate scheduler from elevator state.
 - Prefer deterministic tests over real time.
-- Explain tradeoff between simple nearest-elevator and direction-aware scheduling.
+- Explain tradeoff between simple nearest-elevator and elevatorDirection-aware scheduling.
 

@@ -7,7 +7,7 @@ Use these for 30-minute Java interview practice where design clarity matters as 
 1. [Tic-Tac-Toe Engine](oop-tic-tac-toe.md): best first pick; simple core, strong extensions.
 2. [Snake Game](oop-snake-game.md): best balance of algorithm and OOP.
 3. [Parking Lot](oop-parking-lot.md): best pure OOP/system modeling.
-4. [Elevator System](oop-elevator-system.md): good senior exercise; scope carefully.
+4. [ElevatorModel System](oop-elevator-system.md): good senior exercise; scope carefully.
 
 ## What Interviewers Usually Check
 

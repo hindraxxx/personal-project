@@ -15,7 +15,7 @@ java {
 sourceSets {
     main {
         java {
-            srcDirs = ['main_runner']
+            srcDirs = ['main_runner', 'model']
         }
     }
     test {

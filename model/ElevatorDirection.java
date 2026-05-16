@@ -1,0 +1,4 @@
+  enum ElevatorDirection {
+    UP,
+    DOWN
+  }

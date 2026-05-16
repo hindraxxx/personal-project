@@ -7,7 +7,7 @@ Build a Snake game engine. The snake moves on a grid, eats food, grows, and dies
 ## Core Requirements
 
 - Initialize board width, height, initial snake position, and food list.
-- Move snake one step in a direction.
+- Move snake one step in a elevatorDirection.
 - Return current score after each move.
 - Return game over when snake hits wall or itself.
 - Grow snake when it eats food.
@@ -23,7 +23,7 @@ boolean over = game.isGameOver();
 
 ## Follow-Ups
 
-- Reject reversing direction directly.
+- Reject reversing elevatorDirection directly.
 - Generate random food.
 - Support obstacles.
 - Return snake body for rendering.
